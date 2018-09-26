@@ -1,4 +1,3 @@
----
 title: Azure Internet of Things (IoT) technologies and solutions
 description: Presents the collection of PaaS/SaaS techologies and solutions available for building an Azure IoT solution.
 author: BryanLa
@@ -13,7 +12,7 @@ ms.author: bryanla
 # Azure IoT technologies and solutions: PaaS and SaaS
 
 Microsoft has built a portfolio that supports the needs of all customers, enabling everyone to access the benefits of digital transformation. The Azure IoT product portfolio is an overview of the available PaaS/SaaS technologies and solutions. It presents the two paths that are available for building your own solution:
-- Platform as a Service (PaaS): build your application using [Azure IoT solution accelerators](https://www.azureiotsolutions.com/), which are a collection of enterprise-grade preconfigured solutions that enable you to accelerate the development of custom IoT solutions.
+- Platform as a Service (PaaS): build your application using [Azure IoT solution accelerators](https://www.azureiotsolutions.com/) or [Azure Digital Twins](https://azure.microsoft.com/en-us/services/digital-twins/). [Azure IoT solution accelerators](https://www.azureiotsolutions.com/) are a collection of enterprise-grade preconfigured solutions that enable you to accelerate the development of custom IoT solutions. [Azure Digital Twins](https://azure.microsoft.com/en-us/services/digital-twins/) is a service that brings a spatial intelligence graph and digital twin object models to enable you to model the physical environment to create contextually-aware IoT solutions. 
 - Software as a Service (SaaS): get started fast with [Azure IoT Central](https://azure.microsoft.com/services/iot-central/), the new SaaS solution to develop IoT applications without being exposed to the complexity of IoT solution. If your organization lacks the resources to build your own IoT solution, Azure IoT Central is a codeless IoT solution that can create device models, dashboards, and rules in minutes.
 
 ![Azure IoT technologies and solutions][img-paas-saas-technologies-solutions]
@@ -91,6 +90,8 @@ Connect all your devices to Azure IoT using the open-source [device SDKs](/azure
 ### Edge
 [Azure IoT Edge](https://azure.microsoft.com/services/iot-edge/) is an Internet of Things (IoT) service. This service is meant for customers who want to analyze data on devices, a.k.a. "at the edge." By moving parts of your workload to the edge, you will experience reduced latency and have the option for off-line scenarios.
 
+### Spatial Intelligence
+[Azure Digital Twins](https://azure.microsoft.com/en-us/services/digital-twins/) is a service meant for customers who want to create a digital model of the physical environment. It provides a spatial intelligence graph to model the relationships and interactions between people, spaces, and devices to build contextually aware solutions that benefits from correlating data across the digital and physical world. 
 
 ### Data and analytics
 Take advantage of an array of Azure data and analytics PaaS offerings in your IoT solution, from bringing cloud intelligence to the edge with Azure Machine Learning, to storing IoT device data in a cost-effective way with Azure Data Lake, to visualizing huge amount of data from IoT devices with [Azure Time Series Insights](https://azure.microsoft.com/services/time-series-insights/).
